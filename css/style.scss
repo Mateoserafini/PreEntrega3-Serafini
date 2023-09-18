@@ -11,63 +11,103 @@ body {
   background-color: #e8e9e5;
   font-family: 'Ubuntu', sans-serif;
 
-  header{
+  header {
+    display: flex;
     background-color: #705542;
-    img{
-        display: inline;
-        height: 80px;
-    }
-    
-    
-  }
 
-  main{
+    img {
+      display: inline;
+      height: 80px;
+    }
+
+    div {
+      display: inline;
+
+      button {
+        display: inline;
+      }
+    }
+
+
+  }
+  main ,.razas , .datos{
     background-color: #d1c1a980;
     border-radius: 20px;
-    li{
-        list-style: circle;
-        a{
-        
-            text-decoration: none;
-            color: #171717;
-        }
-    }
-
   }
-  section{
+  .razas{   
+    img{
+      display: block;
+      height: 600px ;
+      border-radius: 10px;
+      transition: .5s ease;
+    }
+    img:hover{
+      box-shadow: 7px 6px 23px 0px rgba(0,0,0,0.64);
+      -webkit-box-shadow: 7px 6px 23px 0px rgba(0,0,0,0.64);
+      -moz-box-shadow: 7px 6px 23px 0px rgba(0,0,0,0.64);
+    }
+  }
+
+  .mainIndex {
+    li {
+      list-style: circle;
+      a {
+        text-decoration: none;
+        color: #171717;
+      }
+    }
+  }
+  .mainInfo{
+    img{
+      display: block;
+      height: 600px ;
+      border-radius: 10px;
+      transition: .5s ease;
+    }
+    img:hover{
+      box-shadow: 7px 6px 23px 0px rgba(0,0,0,0.64);
+      -webkit-box-shadow: 7px 6px 23px 0px rgba(0,0,0,0.64);
+      -moz-box-shadow: 7px 6px 23px 0px rgba(0,0,0,0.64);
+    }
+  }
+  .sectionIndex {
     display: flex;
     width: 100%;
     height: 430px;
     border-radius: 20px;
 
-    img{
-        width: 0px;
-        flex-grow: 1;
-        object-fit: cover;
-        opacity: .8;
-        transition: .5s ease;
+    img {
+      width: 0px;
+      flex-grow: 1;
+      object-fit: cover;
+      opacity: .8;
+      transition: .5s ease;
     }
-    img:hover{
-        cursor: crosshair;
-        width: 300px;
-        opacity: 1;
-        filter:contrast(120%);
+
+    img:hover {
+      cursor: crosshair;
+      width: 300px;
+      opacity: 1;
+      filter: contrast(120%);
     }
-    
+
   }
-  footer{
+
+  footer {
     display: flex;
-    background-color:#756464;
+    background-color: #756464;
     justify-content: center;
-    div{
-        img{
-            display: inline;
-            height: 80px;
-        }
-            li{
-                display: inline;
-                color:#e8e9e5;
-            }
-    }  
+
+    div {
+      img {
+        display: inline;
+        height: 80px;
+      }
+
+      li {
+        display: inline;
+        color: #e8e9e5;
+      }
+    }
   }
 }

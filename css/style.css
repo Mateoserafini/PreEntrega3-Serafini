@@ -10,37 +10,66 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 body header {
+  display: flex;
   background-color: #705542;
 }
 body header img {
   display: inline;
   height: 80px;
 }
-body main {
+body header div {
+  display: inline;
+}
+body header div button {
+  display: inline;
+}
+body main, body .razas, body .datos {
   background-color: rgba(209, 193, 169, 0.5019607843);
   border-radius: 20px;
 }
-body main li {
+body .razas img {
+  display: block;
+  height: 600px;
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+body .razas img:hover {
+  box-shadow: 7px 6px 23px 0px rgba(0, 0, 0, 0.64);
+  -webkit-box-shadow: 7px 6px 23px 0px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 7px 6px 23px 0px rgba(0, 0, 0, 0.64);
+}
+body .mainIndex li {
   list-style: circle;
 }
-body main li a {
+body .mainIndex li a {
   text-decoration: none;
   color: #171717;
 }
-body section {
+body .mainInfo img {
+  display: block;
+  height: 600px;
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+body .mainInfo img:hover {
+  box-shadow: 7px 6px 23px 0px rgba(0, 0, 0, 0.64);
+  -webkit-box-shadow: 7px 6px 23px 0px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 7px 6px 23px 0px rgba(0, 0, 0, 0.64);
+}
+body .sectionIndex {
   display: flex;
   width: 100%;
   height: 430px;
   border-radius: 20px;
 }
-body section img {
+body .sectionIndex img {
   width: 0px;
   flex-grow: 1;
   object-fit: cover;
   opacity: 0.8;
   transition: 0.5s ease;
 }
-body section img:hover {
+body .sectionIndex img:hover {
   cursor: crosshair;
   width: 300px;
   opacity: 1;
