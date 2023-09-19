@@ -34,6 +34,31 @@ body {
     background-color: #d1c1a980;
     border-radius: 20px;
   }
+
+  
+  .mainIndex {
+    li {
+      list-style: circle;
+      a {
+        text-decoration: none;
+        color: #171717;
+      }
+    }
+  }
+  .mainInfo{
+    img{
+      display: block;
+      width: 40%;
+      border-radius: 10px;
+      transition: .5s ease;
+    }
+    img:hover{
+      box-shadow: 7px 6px 23px 0px rgba(0,0,0,0.64);
+      -webkit-box-shadow: 7px 6px 23px 0px rgba(0,0,0,0.64);
+      -moz-box-shadow: 7px 6px 23px 0px rgba(0,0,0,0.64);
+    }
+  }
+
   .razas{   
     img{
       display: block;
@@ -48,16 +73,9 @@ body {
     }
   }
 
-  .mainIndex {
-    li {
-      list-style: circle;
-      a {
-        text-decoration: none;
-        color: #171717;
-      }
-    }
-  }
-  .mainInfo{
+  .historias{
+    background-color: #d1c1a980;
+    border-radius: 20px;
     img{
       display: block;
       height: 600px ;
@@ -69,7 +87,9 @@ body {
       -webkit-box-shadow: 7px 6px 23px 0px rgba(0,0,0,0.64);
       -moz-box-shadow: 7px 6px 23px 0px rgba(0,0,0,0.64);
     }
+
   }
+
   .sectionIndex {
     display: flex;
     width: 100%;

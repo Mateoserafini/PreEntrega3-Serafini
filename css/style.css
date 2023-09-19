@@ -27,6 +27,24 @@ body main, body .razas, body .datos {
   background-color: rgba(209, 193, 169, 0.5019607843);
   border-radius: 20px;
 }
+body .mainIndex li {
+  list-style: circle;
+}
+body .mainIndex li a {
+  text-decoration: none;
+  color: #171717;
+}
+body .mainInfo img {
+  display: block;
+  width: 40%;
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+body .mainInfo img:hover {
+  box-shadow: 7px 6px 23px 0px rgba(0, 0, 0, 0.64);
+  -webkit-box-shadow: 7px 6px 23px 0px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 7px 6px 23px 0px rgba(0, 0, 0, 0.64);
+}
 body .razas img {
   display: block;
   height: 600px;
@@ -38,20 +56,17 @@ body .razas img:hover {
   -webkit-box-shadow: 7px 6px 23px 0px rgba(0, 0, 0, 0.64);
   -moz-box-shadow: 7px 6px 23px 0px rgba(0, 0, 0, 0.64);
 }
-body .mainIndex li {
-  list-style: circle;
+body .historias {
+  background-color: rgba(209, 193, 169, 0.5019607843);
+  border-radius: 20px;
 }
-body .mainIndex li a {
-  text-decoration: none;
-  color: #171717;
-}
-body .mainInfo img {
+body .historias img {
   display: block;
   height: 600px;
   border-radius: 10px;
   transition: 0.5s ease;
 }
-body .mainInfo img:hover {
+body .historias img:hover {
   box-shadow: 7px 6px 23px 0px rgba(0, 0, 0, 0.64);
   -webkit-box-shadow: 7px 6px 23px 0px rgba(0, 0, 0, 0.64);
   -moz-box-shadow: 7px 6px 23px 0px rgba(0, 0, 0, 0.64);
