@@ -13,6 +13,9 @@ header {
   display: flex;
   background-color: #705542;
 }
+header h1 {
+  font-family: "Amatic SC", cursive;
+}
 header img {
   display: inline;
   height: 80px;
@@ -62,7 +65,7 @@ main {
   flex-grow: 1;
   object-fit: cover;
   opacity: 0.8;
-  transition: 0.5s ease;
+  transition: 0.3s ease;
 }
 .sectionIndex img:hover {
   cursor: crosshair;
