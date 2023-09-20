@@ -23,6 +23,9 @@ header div {
 header div button {
   display: inline;
 }
+header div .fondoNav {
+  background-color: #705542 !important;
+}
 
 main {
   background-color: rgba(209, 193, 169, 0.5019607843);

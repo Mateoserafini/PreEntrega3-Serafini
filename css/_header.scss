@@ -11,9 +11,12 @@
     
         div {
           display: inline;
-    
+          
           button {
             display: inline;
+          }
+          .fondoNav{
+            background-color: $fondoHeader !important;
           }
         }
     }
