@@ -1,0 +1,35 @@
+@import "variables";
+
+form{
+    @include fondoContenido;
+    .button2 {
+        background-color: $fondoBoton ;
+        color: $fondoBody;
+        width: 8.5em;
+        height: 2.9em;
+        border: $fondoHeader 0.2em solid;
+        border-radius: 11px;
+        text-align: right;
+        transition: all 0.6s ease;
+    }
+    .button2:hover {
+        background-color: #bd9c80;
+        cursor: pointer;
+      }
+      
+      .button2 svg {
+        width: 1.6em;
+        margin: -0.1em 0.8em 1em;
+        position: absolute;
+        display: flex;
+        transition: all 0.6s ease;
+      }
+      
+      .button2:hover svg {
+        transform: translateX(5px);
+      }
+      
+      .text2 {
+        padding-right: 1.7rem;
+      }
+}

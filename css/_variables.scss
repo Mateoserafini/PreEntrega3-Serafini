@@ -1,0 +1,31 @@
+$fondoBody: #e8e9e5;
+$fondoHeader: #705542;
+$fondoFooter: #756464;
+$fondoBoton: #756a6a;
+$fondoCont: #d1c1a980;
+$colorFuente: #171717;
+
+@mixin fondoContenido{
+    background-color: $fondoCont;
+      border-radius: 20px;
+}
+
+@mixin imgStyle{
+    .tamImg{
+        img{
+          width: 100%;
+          border-radius: 10px;
+          transition: .3s ease;
+        }
+    }
+}
+
+@mixin imgHover{
+    .tamImg{
+        img:hover{
+            box-shadow: 7px 6px 23px 0px rgba(0,0,0,0.64);
+            -webkit-box-shadow: 7px 6px 23px 0px rgba(0,0,0,0.64);
+            -moz-box-shadow: 7px 6px 23px 0px rgba(0,0,0,0.64);
+        }
+    }
+}

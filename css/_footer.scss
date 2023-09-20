@@ -1,0 +1,19 @@
+@import "variables";
+
+footer {
+    display: flex;
+    background-color: $fondoFooter;
+    justify-content: center;
+
+    div {
+      img {
+        display: inline;
+        height: 80px;
+      }
+
+      li {
+        display: inline;
+        color: $fondoBody;
+      }
+    }
+  }

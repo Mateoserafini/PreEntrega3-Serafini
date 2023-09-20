@@ -1,0 +1,19 @@
+@import "variables";
+
+    header {
+        display: flex;
+        background-color: $fondoHeader;
+    
+        img {
+          display: inline;
+          height: 80px;
+        }
+    
+        div {
+          display: inline;
+    
+          button {
+            display: inline;
+          }
+        }
+    }

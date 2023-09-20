@@ -1,0 +1,7 @@
+@import "variables";
+
+.divConten{
+    @include fondoContenido;
+    @include imgStyle;
+    @include imgHover;
+}

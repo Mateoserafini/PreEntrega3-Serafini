@@ -1,0 +1,11 @@
+@import "variables";
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1rem;
+    color: $colorFuente;
+    background-color: $fondoBody;
+    font-family: 'Ubuntu', sans-serif;
+}
