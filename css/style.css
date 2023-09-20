@@ -34,22 +34,20 @@ body .mainIndex li a {
   text-decoration: none;
   color: #171717;
 }
-body .mainInfo img {
-  display: block;
-  width: 40%;
+body .mainInfo .tamImg img {
+  width: 100%;
   border-radius: 10px;
-  transition: 0.5s ease;
+  transition: 0.3s ease;
 }
 body .mainInfo img:hover {
   box-shadow: 7px 6px 23px 0px rgba(0, 0, 0, 0.64);
   -webkit-box-shadow: 7px 6px 23px 0px rgba(0, 0, 0, 0.64);
   -moz-box-shadow: 7px 6px 23px 0px rgba(0, 0, 0, 0.64);
 }
-body .razas img {
-  display: block;
-  height: 600px;
+body .razas .tamImg img {
+  width: 100%;
   border-radius: 10px;
-  transition: 0.5s ease;
+  transition: 0.3s ease;
 }
 body .razas img:hover {
   box-shadow: 7px 6px 23px 0px rgba(0, 0, 0, 0.64);
@@ -60,11 +58,10 @@ body .historias {
   background-color: rgba(209, 193, 169, 0.5019607843);
   border-radius: 20px;
 }
-body .historias img {
-  display: block;
-  height: 600px;
+body .historias .tamImg img {
+  width: 100%;
   border-radius: 10px;
-  transition: 0.5s ease;
+  transition: 0.3s ease;
 }
 body .historias img:hover {
   box-shadow: 7px 6px 23px 0px rgba(0, 0, 0, 0.64);
@@ -89,6 +86,41 @@ body .sectionIndex img:hover {
   width: 300px;
   opacity: 1;
   filter: contrast(120%);
+}
+body form {
+  background-color: rgba(209, 193, 169, 0.5019607843);
+  border-radius: 20px;
+}
+body form .files {
+  width: 100%;
+  height: 30%;
+}
+body form .button2 {
+  background-color: #756a6a;
+  color: #fff;
+  width: 8.5em;
+  height: 2.9em;
+  border: #705542 0.2em solid;
+  border-radius: 11px;
+  text-align: right;
+  transition: all 0.6s ease;
+}
+body form .button2:hover {
+  background-color: #bd9c80;
+  cursor: pointer;
+}
+body form .button2 svg {
+  width: 1.6em;
+  margin: -0.1em 0.8em 1em;
+  position: absolute;
+  display: flex;
+  transition: all 0.6s ease;
+}
+body form .button2:hover svg {
+  transform: translateX(5px);
+}
+body form .text2 {
+  padding-right: 1.7rem;
 }
 body footer {
   display: flex;

@@ -17,9 +17,10 @@
 </head>
 
 <body>
-    <header class="navbar navbar-dark ">
-        <img class="mx-4" src="../multimedia/icon gif.gif" alt="Foto gif de gato pixeliado.">
-        <div class="container ">
+  <header class="navbar navbar-dark ">
+    <div class="container">
+      <img class="" src="../multimedia/icon gif.gif" alt="Foto gif de gato pixeliado.">
+      <h1 class="mx-auto">Historias</h1>
           <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
             aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -55,16 +56,23 @@
     
       </header>
     <main class="container my-3 p-3 mainInfo" data-aos="fade-up" data-aos-duration="1000">
-        <h1>Historias</h1>
+        <h1>Anecdotas, historias y mas...</h1>
         <p class="container">Historias contadas por karens y karens macho de todo el mundo.</h3>
-            <img class="my-3 mx-auto" src="../multimedia/razas.jpg" alt="Foto de gato negro mirando un juguete.">
+          <div class="tamImg">
+            <img class="my-3 mx-auto" src="../multimedia/gatolector.jpg" alt="Foto de gato negro mirando un juguete.">
+          </div>
+        <p>Tambien puedes compartir tus historias por <a href="#1">Aqui</a>.</p>
+
     </main>
 
     <div class="container my-3 p-3 historias" data-aos="fade-left">
         <h3>Un hogar coqueto, una gatita regordeta y un final inesperado</h3>
         <p>En el quinto piso de un edificio muy coqueto vivía una señora de casi 60 años. La mujer, que siempre estaba
             muy bien vestida, era la orgullosa propietaria de una gatita negra llamada Cindy.</p>
-        <img class="mx-auto" src="../multimedia/cindy.jpg" alt="">
+        <div class="tamImg">
+          <img class="mx-auto" src="../multimedia/cindy.jpg" alt="">
+        </div>
+        
         <p>Cierto día, la señora concurre a la clínica veterinaria muy preocupada por el sobrepeso y el nerviosismo de
             su minina. Según ella, Cindy había ganado peso rápidamente y se mostraba más inquieta de lo habitual. <br>
             El veterinario realiza algunas preguntas para verificar los síntomas, pero no encuentra ningún indicio de
@@ -82,7 +90,10 @@
         <p>Cuando mi padre dejó de fumar, comenzó a subir de peso y varias veces al día se ponía de pie sobre la
             báscula. En tal tarea, se divertía también pesando a nuestro gordito gatito. Ahora, si sacas la báscula,
             nuestro gato va, como si fuera un condenado, a comprobar su peso.</p>
-        <img class="mx-auto" src="../multimedia/fatgato.jpg" alt="">
+            <div class="tamImg">
+          <img class="mx-auto" src="../multimedia/fatgato.jpg" alt="">
+            </div>
+        
     </div>
     <div class="container my-3 p-3 historias" data-aos="fade-left">
         <h3>Gasto excesivo</h3>
@@ -100,8 +111,34 @@
             aprendido a abrir la llave del grifo de la cocina. Y no solo eso, mientras no estaba su dueño, se subía
             diario a la tarja para ver cómo caía el agua durante 6 horas al día. ¿Por qué no se dio cuenta el joven?
             Fácil, la llave se cerraba sola después de un tiempo, así que era básicamente el crimen perfecto.</p>
-        <img class="mx-auto" src="../multimedia/gatoc.jpeg" alt="">
+            <div class="tamImg">
+           <img class="mx-auto" src="../multimedia/gatoc.jpeg" alt="">
+            </div>
+       
     </div>
+
+    <form class="container my-3 p-3" action="">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label mx-2" >Email</label>
+        <input required type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@email.com">
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea2" class="form-label mx-2">Cuentenos</label>
+        <textarea required class="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
+    </div>
+    <button class="button2" type="submit" id="1">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+              d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+      </svg>
+      <div class="text2">
+          Enviar
+      </div>
+  </button>
+
+   
+  </form>
 
     <footer class="p-3 mt-3 ">
         <div>

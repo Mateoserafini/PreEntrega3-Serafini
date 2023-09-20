@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
 
+@mixin fondoContenido{
+  background-color: #d1c1a980;
+    border-radius: 20px;
+}
 
 body {
   margin: 0;
@@ -10,6 +14,8 @@ body {
   color: #171717;
   background-color: #e8e9e5;
   font-family: 'Ubuntu', sans-serif;
+
+  
 
   header {
     display: flex;
@@ -31,8 +37,7 @@ body {
 
   }
   main ,.razas , .datos{
-    background-color: #d1c1a980;
-    border-radius: 20px;
+    @include fondoContenido;
   }
 
   
@@ -46,12 +51,14 @@ body {
     }
   }
   .mainInfo{
-    img{
-      display: block;
-      width: 40%;
-      border-radius: 10px;
-      transition: .5s ease;
+    .tamImg{
+      img{
+        width: 100%;
+        border-radius: 10px;
+        transition: .3s ease;
+      }
     }
+    
     img:hover{
       box-shadow: 7px 6px 23px 0px rgba(0,0,0,0.64);
       -webkit-box-shadow: 7px 6px 23px 0px rgba(0,0,0,0.64);
@@ -60,11 +67,12 @@ body {
   }
 
   .razas{   
-    img{
-      display: block;
-      height: 600px ;
-      border-radius: 10px;
-      transition: .5s ease;
+    .tamImg{
+      img{
+        width: 100%;
+        border-radius: 10px;
+        transition: .3s ease;
+      }
     }
     img:hover{
       box-shadow: 7px 6px 23px 0px rgba(0,0,0,0.64);
@@ -74,13 +82,13 @@ body {
   }
 
   .historias{
-    background-color: #d1c1a980;
-    border-radius: 20px;
-    img{
-      display: block;
-      height: 600px ;
-      border-radius: 10px;
-      transition: .5s ease;
+    @include fondoContenido;
+    .tamImg{
+      img{
+        width: 100%;
+        border-radius: 10px;
+        transition: .3s ease;
+      }
     }
     img:hover{
       box-shadow: 7px 6px 23px 0px rgba(0,0,0,0.64);
@@ -111,6 +119,46 @@ body {
       filter: contrast(120%);
     }
 
+  }
+
+  form{
+    @include fondoContenido;
+    .files{
+      width: 100%;
+      height: 30%;
+    }
+
+    .button2 {
+      background-color: #756a6a;
+      color: #fff;
+      width: 8.5em;
+      height: 2.9em;
+      border: #705542 0.2em solid;
+      border-radius: 11px;
+      text-align: right;
+      transition: all 0.6s ease;
+    }
+    
+    .button2:hover {
+      background-color: #bd9c80;
+      cursor: pointer;
+    }
+    
+    .button2 svg {
+      width: 1.6em;
+      margin: -0.1em 0.8em 1em;
+      position: absolute;
+      display: flex;
+      transition: all 0.6s ease;
+    }
+    
+    .button2:hover svg {
+      transform: translateX(5px);
+    }
+    
+    .text2 {
+      padding-right: 1.7rem;
+    }
   }
 
   footer {
